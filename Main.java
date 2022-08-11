@@ -12,5 +12,7 @@ public class Main {
 
         list.removeLast();
 
+        System.out.println(list.indexOf(3));
+        System.out.println(list.contains(5));
     }
 }

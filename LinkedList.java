@@ -72,6 +72,25 @@ public class LinkedList {
         tail.next = null;
     }
 
+    //getting the index of an item in the linked list
+    public int indexOf(int item){
+        int index = 0;
+        var current = head;
+        while (current!=null){
+            if (current.value == item){
+                return index;
+            }
+            current = current.next;
+            index++;
+        }
+        return  -1;
+    }
+
+    //check if the given item is in the list
+    public boolean contains(int item){
+        return indexOf(item) != -1;
+    }
+
     private Node getPreviousNode(Node node){
         var current = head;
         while (current!= null){
