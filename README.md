@@ -1,4 +1,4 @@
-# Linked-List-from-Scratch
+# Linked-List-from-Scratch🪓
 
 ## Java - Data Structure & Algorithm 
 
