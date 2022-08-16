@@ -1,6 +1,4 @@
 # Linked-List-from-Scratch🪓
 
-## Java - Data Structure & Algorithm 
-
-
+## Java - Data Structure & Algorithm ✨
 
